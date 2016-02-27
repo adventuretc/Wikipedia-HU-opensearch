@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Wikipedia (HU)</ShortName>
+	<Description>Keresés a Wikipédia magyar változatán</Description>
+	<LongName>Magyar Wikipédia kereső</LongName>
+	<Tags>magyar hungarian wikipédia wikipedia kereső search enciklopédia encyclopedia</Tags>
+	<Attribution>A Wikipédiából, a szabad enciklopédiából</Attribution>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Language>hu</Language>
+	<Image height="16" width="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAOBJREFUOMvV0yFLg1EUxvHfGEOwGAwigmIRg8kvoMVgXFDBaPALGG1jyW4QDAtbVLCYBNmaJtuwGQ36BSyv5YTDuJtvMeyUy/nfwznc5zmXuY9GnAdYQROvGOM48hbe8RK1h1hGhUFu9o23iQEVPguDKyxOwvO4yHFRYPBQes5CFG8nthRsJ7ETtKdp8oGrlJ9Gg9vEHmeJeomvlI9jWn7GaFaD9STQKvpJtD1sofOXtT84Qw9rwZ5wh25iU+Maw9gHyfsKz3WWazeKjwre39Td0JL399iv22CzwDb+5TP9AiP5Kwc0LvYwAAAAAElFTkSuQmCC</Image>
+	<Image height="64" width="64">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAABBlJREFUeNrtmm1ollUYx39LtzkzNGUrpyxGIGIqNlYfCkoj1BIslNSBRVPzg+j0g6YQ2BepIFOxMEXBT86XUTGsJoSKggVOGH3YiFAEFUzxLXzb5tz84HnqeO865347z/08H84Pbhj3OefPf9d97nOuc90PeDwej8fj8Xg8Ho/HA7AWGEhwHRC0hibUyl3vR/B7xrXmU8DzwFzg9xCx08AMYKRFrxyYAGwGHoToXQcagWqgJOIDKwWqgJnAQYPuSWAOUBlD9z/xXy1mR8ecXW8DvZYAfOhgBv8S0GxTMzEx44EewexvCfW+sASg0kEAPtL0bqrZYZ3uYVwCDgv3n0to8CvglqGt10EAhmt/7wCuulgY5wtP6yHwbEK9zYYZUO/A6/dKqx+odbUzVAB3BMMLEupNNgRghQOvXUrrlOvtsUUw3JxC7y9BryWlxxpNq8l1ABYJhv8FyhLqbRL0bqZcsZu06T/OdQCeAboF07MT6r1keA3eSuHxqJaf5IWfBcO7UuhJWdzuhFqjtERrY74CsEQw/E/E7VRileG1qkig1aBpvJyvAIwB+gTTr6d8Z4NXQwKtZjX2Yr4PS8cEw1+n3LKC15GYOkPVAjqg8oC8slIwfDaBzpuWlLhPHYiiMkMb+26+AzBObTNB01Ni6uzXxkq7y/oYWlvVmLvAsCxqBn8IhuOsvJXaAasT2CLodcXQO6vGtGZVNFknGO6IMX69Nm4VMNXwKrwSQWuS1n9ZVgF40WD4hQhjS4Bz2pTNFVM6BL3vYgSzHxibZensT8HwmgjjZhmSnjWGoktYqn1K9W3Punb4uWD4RIRxP2n967T7VYaS2byQteRhvrO/OEfavpCqTrX2T0r5equgaVvYPs4i+7Pxt2B4acRZ0yi0zxP0ei1B/SGr7M9W3goaPmzoO0QZHQBuGPL9MuCaoLla6FsO3M4q+zPxqmD2PjBC6Pue1mebRfPbiFvsbK19TqECUKI9Vf36QOjbprVPtGjWG7bYqYF+O7LO/kxsj1Aqq9VW62MRNDsFzW8CfS5knf2ZmC6YvcXjjyo5vgyZHUE+NdQdcuWyaYXI/rAsblcFw7NUeylwRd27HAiMibGGukPuXd9YqOzPxG7B7E7VtlC7tymGZpugeUi1tRcq+zPxjmD2slokj/P/h5SaGJpSFbqbx8XU/kJlfybK1HsfNNwYIT8wMcyg2V7o7M/EPsHs7ZSVml2WqtFFioz5FrPnSVY5fs2iubPYAjAcuGcwu8HxeaOg2Z+NHwWjPYR8ow/hM0Gz4NmficWC2f0pNWsYXIRtpUgZyeCfwLzhQPdoQPMTipgjmtFOR5r6z16KJvszsZwnK74ueFrbUtspcqpU1qdXfF2wt9iyPxsngD15OnXW4fF4PB6Px+OAR4qUX3B5y6q7AAAAAElFTkSuQmCC</Image>
+	<Url method="GET" template="https://hu.wikipedia.org/w/api.php" type="application/x-suggestions+json">
+		<Param name="action" value="opensearch"/>
+		<Param name="search" value="{searchTerms}"/>
+	</Url>
+	<Url method="GET" template="https://hu.wikipedia.org/w/index.php" type="text/html">
+		<Param name="title" value="Speciális:Keresés"/>
+		<Param name="search" value="{searchTerms}"/>
+	</Url>
+	<SearchForm>https://hu.wikipedia.org/wiki/Speciális:Keresés</SearchForm>
+</OpenSearchDescription>

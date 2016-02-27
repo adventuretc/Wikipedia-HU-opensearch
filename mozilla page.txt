@@ -1,0 +1,6 @@
+név
+Magyar Wikipédia kereső - Wikipedia (HU)
+url
+magyar-wikipedia
+leírás
+Firefox kereső a magyar Wikipédiához. OpenSearch formátum.
